@@ -17,7 +17,20 @@ public class Minion {
 		
 		}
 	public String getName() {
-		name "My name is " + name;
+		return name; 
+	}
+	public int getEyes() {
+		return eyes;
+	}
+	public String getColor() {
+		return color;
+	}
+	public String getMaster() {
+		return master;
+	}
+	
+	public void setMaster(String master) {
+		this.master=master;
 	}
 	
 }
